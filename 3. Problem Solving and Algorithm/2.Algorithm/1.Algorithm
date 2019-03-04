@@ -1,0 +1,38 @@
+算法描述
+
+流程图 Flow Diagram
+
+I.Nassi和B.Shneiderman --> N-S图
+
+* 伪代码  Pseudocode
+
+
+P问题 
+·Polynomical 多项式
+·Non-Deterministic 非确定问题
+
+穷举法,暴力算法
+
+递推法：顺推法，逆推法
+
+递归法：
+
+Fibonacci Sequence
+
+F0 = 0, F1 = 1, Fn=F(n-1)+F(n-2) (n>2, n->N*)
+
+python:
+def Fibonacci(n):
+    if n<0:
+        return
+    elif n==1:
+        return 0
+    elfi n==2:
+        return 1
+    else:
+        return Fibonacci(n-1) + Fibonacci(n-2)
+
+回溯法：八皇后
+迭代法, 辗转法
+分汉法，分而治之(Divide and Conquer)
+贪心法, 贪婪法

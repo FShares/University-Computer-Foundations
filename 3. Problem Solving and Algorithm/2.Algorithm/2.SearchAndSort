@@ -1,0 +1,20 @@
+Search：
+Search_Sequential 顺序查找
+Search_Binary二分查找
+
+
+Sort:
+1.Selection         选择sort
+    简单选择                n^2
+    树形选择(锦标赛排序)     nlong2n
+    堆排序                  nlong2n
+2.Exchange          交换sort
+    冒泡排序
+    快速排序
+3.Insertion         插入sort
+    折半插入   binary insertion
+    希尔       Shell Sort
+4. Merge            归并sort
+    二路归并
+5. 桶分类           基数sort  O（d*n）
+
